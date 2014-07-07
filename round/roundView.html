@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/index.css" />
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div id = "header">
+        </div>
+
+        <div class="main">
+            <div id = "roundHeader">
+            </div>
+            <div id = "roundView">
+            </div>
+            <button class="btn" onClick="roundSetUp()">Refresh Round</button>
+                        <!-- Button trigger modal -->
+            <button class="btn" data-toggle="modal" data-target="#myModal">
+              Add Hole
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Add Hole</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div id = "nextHole">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="shots" placeholder="Shots">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onClick="addHole()">Save Hole</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="../js/index.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            loadHeaderAndFooter();
+            roundSetUp();
+        </script>
+    </body>
+
+</html>

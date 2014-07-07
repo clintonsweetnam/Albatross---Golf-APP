@@ -1,0 +1,197 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+/*   COLOURS   */
+
+/*
+SKY BLUE #00ACE9
+RED #D43F3F
+GREEN #6A9A1F
+LIGHT GREY #F6F6E8
+DARK GREY #404040
+*/
+
+@font-face {
+    font-family: GearedSlab;
+    src: url(../fonts/GearedSlab-Extrabold.ttf);
+}
+
+body{
+    font-family: GearedSlab;
+    background: #404040;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+/* Login and Sign Up */
+
+.login-form{
+    margin-top: 30%;
+    font-size: 20px;
+    width:80%;
+    margin: 10% auto;
+    color : #F6F6E8;
+    text-align: center;
+}
+
+.login-form #alert{
+    font-size: 20px;
+    color : #F6F6E8;
+}
+
+.login-form h1{
+    color: #6A9A1F;
+    text-align: center;
+    font-size: 90px;
+    margin-bottom: 20%;
+}
+
+.login-form h2{
+    color: #6A9A1F;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 10%;
+}
+
+
+.login-form .form-control{
+    font-size: 20px;
+}
+
+.login-form p{
+    font-size: 20px;
+    color : #F6F6E8;
+}
+
+.login-form .btn-login{
+    font-size: 20px;
+    border: 1px solid #F6F6E8;
+    background: #D43F3F;
+    color : #F6F6E8;
+    width:100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.sign-up{
+    margin: 30% auto;
+}
+
+/* End of Login and Sign Up */
+
+
+
+/*  Header Area  */
+
+#header {
+    height:10%;
+    color : #6A9A1F;
+    border-bottom: 1px solid #D43F3F;
+}
+
+#header .glyphicon {
+    font-size : 35px;
+    margin : 10px;
+    color : #D43F3F;
+}
+
+/* End of Header Area  */
+
+
+
+/*  Main Area  */
+
+.main{
+    color: #D43F3F;
+    margin: 2%;
+}
+.main .btn{
+    font-size: 20px;
+    border: 1px solid #F6F6E8;
+    background: #D43F3F;
+    color : #F6F6E8;
+    width:80%;
+    margin: 3% 10%;
+}
+
+.main .form-control{
+    background: #F6F6E8;
+    width:80%;
+    margin:5% auto;
+}
+
+.main #roundView {
+    margin : 0px auto;
+    width :96%;
+}
+
+#roundView .col-xs-1{
+    background: #F6F6E8;
+    font-size: 20px; 
+    text-align: center;
+    padding : 0px;
+    width: 8%;
+}
+
+#roundView .col-xs-2{
+    background: #F6F6E8;
+    font-size: 20px;
+    text-align: center;
+    padding : 0px;
+    width: 16%;
+}
+
+#roundView .Number{
+    background: #6A9A1F;
+    color : #F6F6E8;
+}
+
+#roundView .Par{
+   background: #00ACE9;
+   color : #F6F6E8;
+   border-bottom: 1px solid #404040;
+}
+
+#roundView .Score{
+   background: #F6F6E8;
+   color : #404040;
+   border-bottom: 1px solid #404040;
+}
+
+#roundView .Total{
+   background: #D43F3F;
+   color : #404040;
+}
+
+#roundView .UnderPar{
+    background: #D43F3F;
+    color:  #F6F6E8;
+}
+
+#roundView .OverPar{
+    background: #404040;
+    color:  #F6F6E8;
+}
+
+
+
+
+/* End Main Area  */
